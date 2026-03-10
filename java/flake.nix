@@ -18,6 +18,7 @@
         nativeBuildInputs = with pkgs; [
           javaPackages.compiler.openjdk21
           jdt-language-server
+          maven
         ];
         buildInputs = with pkgs; [];
       in {
