@@ -1,0 +1,8 @@
+# Nix
+result*
+
+# typst
+*.pdf
+
+# Misc
+.direnv

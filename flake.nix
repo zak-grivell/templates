@@ -174,6 +174,15 @@
           "jdt-language-server"
         ];
       };
+      typst = mkWelcomeText {
+        path = ./typst ;
+        name = "Typst Template";
+        description = ''
+          A basic typst project template.
+        '';
+        buildTools = [
+        ];
+      };
     };
   };
 }

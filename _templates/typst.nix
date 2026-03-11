@@ -1,0 +1,5 @@
+{ ... }:
+
+{
+  languages.typst.enable = true;
+}
